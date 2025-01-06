@@ -224,8 +224,8 @@ html    {
 }
 
 .solgen {
-    background-color: #171717;
-    color: #fff;
+    background-color: #1f1f1f;
+    color: #b5b5b5;
     height: 250px;
     display: flex;
     flex-direction: column;
