@@ -9,40 +9,52 @@ header {
     width: 100%;
     position: fixed;
 }
+
+hr.custom-line {
+    border: 0;
+    height: 2px;
+    background-color: rgba(77, 149, 78, 1);
+
+}
+
 h1 {
-    position:absolute;
+    position: absolute;
     left: 2vw;
     top: 0;
     line-height: 80px;
     color: #fff;
     width: 500px;
 }
+
 header ul {
-    position:absolute;
+    position: absolute;
     right: 2vw;
     top: 0;
     line-height: 80px;
 }
+
 header li {
     display: inline;
     margin-right: 2vw;
 }
+
 header a {
     color: #fff;
     text-decoration: none;
 }
-header a:hover{
+
+header a:hover {
     text-decoration: underline;
 }
 
-html    {
+html {
     scroll-behavior: smooth;
 }
 
 .Cover {
     background-color: #4d954e;
-    height:100vh;
-    background-image:url(images/cover.png) ;
+    height: 100vh;
+    background-image: url(images/cover.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -51,7 +63,7 @@ html    {
 .Title {
     background-color: #ececec;
     color: #4d954e;
-    height:75vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -60,21 +72,22 @@ html    {
 }
 
 .Title h2 {
-    font-size:48px;
+    font-size: 48px;
 }
 
 .Title h3 {
-    font-size:24px;
+    font-size: 24px;
 }
 
 .arrow {
-   margin: 10px 0;
+    margin: 10px 0;
 }
 
 .Title p {
     font-size: 16px;
-    margin:5px 0;   
+    margin: 5px 0;
 }
+
 .Title a {
     text-decoration: none;
     border: 1px solid #fff;
@@ -84,7 +97,7 @@ html    {
 }
 
 .I1 {
-    height:100vh;
+    height: 100vh;
     display: flex;
 }
 
@@ -97,9 +110,11 @@ html    {
     align-items: center;
     justify-content: center;
 }
+
 .Background svg {
     width: 20%;
 }
+
 .Background h2 {
     margin: 20px;
 }
@@ -141,7 +156,7 @@ html    {
 }
 
 .I2 {
-    height:100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,7 +171,7 @@ html    {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image:url(images/Functional.png) ;
+    background-image: url(images/Functional.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -178,7 +193,7 @@ html    {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image:url(images/Symbolic.png);
+    background-image: url(images/Symbolic.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -187,14 +202,15 @@ html    {
 .Symbolic svg {
     width: 20%;
 }
+
 .Symbolic p {
     margin: 10px;
     width: 65%;
-    
+
 }
 
 .I3 {
-    height:100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,6 +239,69 @@ html    {
     width: 65%;
 }
 
+.Cover2 {
+    background-color: #4d954e;
+    height: 100vh;
+    background-image: url(images/cover2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.B3 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ececec;
+    color: #4d954e;
+}
+
+.Methods {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Methods svg {
+    width: 40%;
+}
+
+.Methods h2 {
+    margin: 20px;
+}
+
+.Methods p {
+    margin: 10px;
+    width: 65%;
+}
+
+.show {
+    height: 100vh;
+    display: flex;
+    background-color: #aeccae;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 300px 0px;
+    color: #204121;
+}
+
+.show div {
+    width: 300px;
+    text-align: center;
+}
+
+.show img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.show h2 {
+    margin: 20px 0;
+}
+
 .solgen {
     background-color: #1f1f1f;
     color: #b5b5b5;
@@ -248,29 +327,37 @@ footer {
     header {
         height: 60px;
     }
+
     h1 {
         left: 50%;
         transform: translateX(-50%);
     }
+
     header ul {
         display: none;
     }
+
     header a {
         font-size: 14px;
     }
+
     .INFO h2 {
         font-size: 40px;
     }
+
     .INFO p {
         font-size: 10px;
     }
+
     .INFO a {
         padding: 5px 10px;
     }
+
     .solgen {
         height: 150px;
         font-size: 16px;
     }
+
     footer {
         height: 15px;
     }
