@@ -329,9 +329,17 @@ footer {
         height: 60px;
     }
 
+    .Cover {
+        background-color: #4d954e;
+        height: 60vw;
+        background-image: url(images/cover.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
     h1 {
-        left: 50%;
-        transform: translateX(-50%);
+        left: 5vw;
     }
 
     header ul {
@@ -342,17 +350,61 @@ footer {
         font-size: 14px;
     }
 
-    .INFO h2 {
-        font-size: 40px;
+    .Title {
+        height: 120vw;
     }
 
-    .INFO p {
-        font-size: 10px;
+    .Title h2 {
+        font-size: 30px;
     }
 
-    .INFO a {
+    .Title p {
+        font-size: 16px;
+    }
+
+    .Title a {
         padding: 5px 10px;
     }
+
+    .I1 {
+        display: flex;
+        flex-direction: column;
+        height: 300vw;
+    }
+
+    .Background {
+        background-color: #4d954e;
+        color: #ececec;
+        height: 100vw;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Background svg {
+        width: 10%;
+        height: auto;
+    }
+
+    .Background p {
+        text-align: left;
+        margin: 6px;
+        width: 80%;
+    }
+
+    .Keywords {
+
+        height: 200vw;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
 
     .solgen {
         height: 150px;
