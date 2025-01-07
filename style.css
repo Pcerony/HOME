@@ -384,7 +384,7 @@ footer {
     .Background {
         background-color: #4d954e;
         color: #ececec;
-        height: 100vw;
+        height: 120vw;
         width: 100vw;
         display: flex;
         flex-direction: column;
