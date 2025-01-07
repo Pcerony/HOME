@@ -340,6 +340,7 @@ footer {
 
     h1 {
         left: 5vw;
+        font-size: 4vw;
     }
 
     header ul {
@@ -347,7 +348,7 @@ footer {
     }
 
     header a {
-        font-size: 14px;
+        font-size: 3vw;
     }
 
     .Title {
@@ -355,11 +356,15 @@ footer {
     }
 
     .Title h2 {
-        font-size: 30px;
+        font-size: 6vw;
+    }
+
+    .Title h3 {
+        font-size: 5vw;
     }
 
     .Title p {
-        font-size: 16px;
+        font-size: 3vw;
     }
 
     .Title a {
@@ -403,6 +408,8 @@ footer {
         align-items: center;
         justify-content: center;
     }
+
+
 
 
 
