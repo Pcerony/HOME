@@ -449,6 +449,15 @@ footer {
         width: 80vw;
     }
 
+    .Cover2 {
+        background-color: #4d954e;
+        height: 100vw;
+        background-image: url(images/cover2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
     .B3 {
         display: none;
     }
@@ -477,7 +486,7 @@ footer {
     }
 
     .Results div {
-        width: 80vw;
+        width: 50vw;
     }
 
     .Results img {
