@@ -258,6 +258,10 @@ html {
     color: #4d954e;
 }
 
+.B3_s {
+    display: none;
+}
+
 .Methods {
     width: 50%;
     display: flex;
@@ -426,7 +430,7 @@ footer {
     .I3 {
         display: flex;
         flex-direction: column;
-        height: 200vw;
+        height: 250vw;
         width: 100vw;
     }
 
@@ -445,7 +449,48 @@ footer {
         width: 80vw;
     }
 
+    .B3 {
+        display: none;
+    }
 
+    .B3_s {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 120vw;
+        width: 100vw;
+        background-color: #ececec;
+    }
+
+    .B3_s img {
+        width: 80vw;
+        height: auto;
+    }
+
+    .Results {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vw;
+        width: 100vw;
+    }
+
+    .Results div {
+        width: 80vw;
+    }
+
+    .Results img {
+        width: 20vw;
+    }
+
+    .Results h2 {
+        font-size: 4vw;
+    }
+
+    .Results strong {
+        display: none
+    }
 
 
 
