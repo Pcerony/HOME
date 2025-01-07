@@ -36,6 +36,7 @@ header ul {
 header li {
     display: inline;
     margin-right: 2vw;
+    white-space: nowrap
 }
 
 header a {
