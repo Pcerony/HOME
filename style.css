@@ -409,6 +409,42 @@ footer {
         justify-content: center;
     }
 
+    .I2 {
+        display: flex;
+        flex-direction: column;
+        height: 200vw;
+    }
+
+    .Functional {
+        width: 100vw;
+    }
+
+    .Symbolic {
+        width: 100vw;
+    }
+
+    .I3 {
+        display: flex;
+        flex-direction: column;
+        height: 200vw;
+        width: 100vw;
+    }
+
+    .I3 img {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 15vw;
+    }
+
+    .Goals svg {
+        width: 10%;
+        height: auto;
+    }
+
+    .Goals p {
+        width: 80vw;
+    }
+
 
 
 
