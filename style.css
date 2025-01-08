@@ -477,30 +477,8 @@ footer {
     }
 
     .Results {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 50vw;
-        width: 100vw;
-    }
-
-    .Results div {
-        width: 50vw;
-    }
-
-    .Results img {
-        width: 20vw;
-    }
-
-    .Results h2 {
-        font-size: 4vw;
-    }
-
-    .Results strong {
         display: none
     }
-
 
 
     .solgen {
