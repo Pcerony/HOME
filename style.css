@@ -3,8 +3,19 @@
     padding: 0;
 }
 
+.demo::-webkit-scrollbar {
+    display: none; /* Chrome Safari */
+  }
+  
+  .demo {
+    scrollbar-width: none; /* firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
 header {
-    background-color: rgba(77, 149, 78, 0.8);
+    background-color: #4c944dcc;
     height: 80px;
     width: 100%;
     position: fixed;
@@ -13,7 +24,7 @@ header {
 hr.custom-line {
     border: 0;
     height: 2px;
-    background-color: rgba(77, 149, 78, 1);
+    background-color: #4d954e;
 
 }
 
@@ -55,7 +66,7 @@ html {
 .Cover {
     background-color: #4d954e;
     height: 100vh;
-    background-image: url(images/cover.png);
+    background-image: url(images/cover3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -100,7 +111,9 @@ html {
 .I1 {
     height: 100vh;
     display: flex;
+    color: #ececec;
 }
+
 
 .Background {
     background-color: #4d954e;
@@ -113,7 +126,13 @@ html {
 }
 
 .Background svg {
-    width: 20%;
+    width: 30%;
+}
+
+
+.Background h3 {    
+    margin: 20px;
+    font-size: 128px;
 }
 
 .Background h2 {
@@ -165,29 +184,45 @@ html {
     color: #ececec;
 }
 
-.Functional {
+.problem1 {
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(images/Functional.png);
+    background-image: url(images/passive.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.Functional svg {
-    width: 25%;
+.problem1S svg {
+    width: 100%;
 }
 
-.Functional p {
+.problem1S p {
     margin: 10px;
     width: 65%;
 }
 
-.Symbolic {
+.problem1H p {
+    margin: 50px;
+    text-align: center;
+}
+
+.problem1H {
+    display: none;
+}
+.problem1:hover .problem1H {
+    display: block;
+}
+.problem1:hover .problem1S {
+    display: none;
+}
+
+
+.problem2 {
     width: 50%;
     height: 100%;
     display: flex;
@@ -200,14 +235,24 @@ html {
     background-position: center;
 }
 
-.Symbolic svg {
-    width: 20%;
+.problem2S svg {
+    width: 100%;
 }
 
-.Symbolic p {
-    margin: 10px;
-    width: 65%;
+.problem2H p {
+    margin: 50px;
+    text-align: center;
 
+}
+
+.problem2H {
+    display: none;
+}
+.problem2:hover .problem2H {
+    display: block;
+}
+.problem2:hover .problem2S {
+    display: none;
 }
 
 .I3 {
@@ -281,6 +326,19 @@ html {
 .Methods p {
     margin: 10px;
     width: 65%;
+}
+
+.Cover4 {
+    background-color: #4d954e;
+    height: 100vh;
+    background-image: url(images/cover4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Cover4 h2 {
+    color: #204121;
 }
 
 .show {
@@ -419,11 +477,11 @@ footer {
         height: 200vw;
     }
 
-    .Functional {
+    .problem1 {
         width: 100vw;
     }
 
-    .Symbolic {
+    .problem2 {
         width: 100vw;
     }
 
